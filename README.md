@@ -80,6 +80,6 @@ if __name__ == '__main__':
 
         text2speech.say(text, speech_rate)
 
-    exit()
+    pass
 ```
  
