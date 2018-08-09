@@ -8,6 +8,25 @@
 ## Example
   :octocat:Here is an example to show you how to speak with TTS in a asynchronous thread:
 ``` Shell
+
+from text2speech import Text2Speech
+
+if __name__ == '__main__':
+
+    text = u'我在另一个线程中不断的说恭喜发财'
+    speech_rate = 200
+    
+    text2speech = Text2Speech()
+
+    while True:
+
+        text2speech.say(text, speech_rate)
+
+    pass
+```
+## Text2Speech class description
+  :octocat:Here is Text2Speech class, you can see all input text will be spoken with TTS in a asynchronous thread :
+``` Shell
 class Text2Speech:
 
     # ==========================================================================================================
