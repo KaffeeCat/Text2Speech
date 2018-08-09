@@ -27,6 +27,9 @@ if __name__ == '__main__':
 ## Text2Speech class description
   :octocat:Here is Text2Speech class, you can see all input text will be spoken with TTS in a asynchronous thread :
 ``` Shell
+import threading, time
+import pyttsx 
+
 class Text2Speech:
 
     # ==========================================================================================================
