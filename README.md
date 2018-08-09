@@ -85,20 +85,5 @@ class Text2Speech:
 
         pass
 
-# ==========================
-# Main function
-# ==========================
-if __name__ == '__main__':
-
-    text = u'我在另一个线程中不断的说恭喜发财'
-    speech_rate = 200
-    
-    text2speech = Text2Speech()
-
-    while True:
-
-        text2speech.say(text, speech_rate)
-
-    pass
 ```
  
